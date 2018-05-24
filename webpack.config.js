@@ -33,7 +33,7 @@ const extractSass = new ExtractTextPlugin({
            options: {
              name: '[name].[ext]',
              outputPath: 'fonts/',    
-             publicPath: '../'     
+               publicPath: './fonts/'     
            }
          }]
        }
