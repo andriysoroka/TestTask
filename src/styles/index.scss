@@ -1,5 +1,15 @@
-﻿@import 'header.scss';
-@import 'main.scss';
-body {
+﻿
 
+@import 'header.scss';
+@import 'main.scss';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
