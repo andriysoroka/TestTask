@@ -3,9 +3,6 @@
     src: url(./fonts/tahomabd.ttf);
 }
 
-@import 'header.scss';
-@import 'main.scss';
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,3 +18,7 @@ body {
     font-family: "Times New Roman";
     color: #8d8d8d;
 }
+
+@import 'header.scss';
+@import 'main.scss';
+@import 'media.scss';
