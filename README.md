@@ -9,11 +9,11 @@ to install node modules
 npm install
 ```
 
-to run your bundle.js
+get all styles from main.css run
 ```
 npm run build 
 ```
-run the local server
+if u wont open project on localserver run 
 ```
 node server.js
 ```
